@@ -27,9 +27,10 @@ export const setUser = (user) => {
       dispatch({
         type: 'SET_USER',
         data: loggedUser
-      })      
-    } catch (e){
-      alert(e)
+      })
+      return 1      
+    } catch {
+      return 2
     }
   }
 }
@@ -40,7 +41,7 @@ export const registerUser = (user) => {
       await loginService.register(user)
       dispatch(setUser(user)) 
     } catch {
-      alert('sign up error')
+      return 1
     }
   }
 }
