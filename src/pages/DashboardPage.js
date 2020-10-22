@@ -32,7 +32,13 @@ const DashboardPage = () => {
       <div className='dashContent'>
         <div className='dashHeader'>
           <button onClick={() => dispatch(openModal())}>New Dream</button>
-          <input placeholder='search' value={search} onChange={({target}) => setSearch(target.value)}/>        
+          <input placeholder='search' value={search} onChange={({target}) => setSearch(target.value)}/> 
+          <h4>Show All</h4>
+          <label class="switch">
+            <input type="checkbox"/>
+            <span class="slider round"></span>
+          </label>
+
         </div>
         <DreamList dreamsToShow={dreamsToShow}/>    
         <DreamFormModal/>        

@@ -54,7 +54,7 @@ const DreamFormModal = () => {
 
         <Form.Group controlId="textAreaInput">
           <Form.Label>Dream Content</Form.Label>
-          <Form.Control as="textarea" placeholder="Today I Dreamt That..." rows="5" value={content} onChange={({target}) => setContent(target.value)}/>
+          <Form.Control as="textarea" placeholder="Today I Dreamt That..." rows="5" value={content} onChange={({target}) => setContent(target.value)} maxLength='400'/>
         </Form.Group>
         <button type="submit">create</button>
       </Form>

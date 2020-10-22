@@ -16,7 +16,12 @@ const DreamList = ({dreamsToShow}) => {
             <li key={dream.id}> 
               <div> <h2> {dream.title} </h2> {format(Date.parse(dream.date), 'PPpp')} </div> 
               <p>{dream.content}</p>  
-              <button onClick={() => dispatch(deleteDream(dream.id))}>delete</button></li>
+              <div className="dreamControls">
+                <button onClick={() => alert('to be implemented')}>Edit</button>
+                <button onClick={() => dispatch(deleteDream(dream.id))}>delete</button>                
+              </div>
+            </li>
+              
           )}
         </ul>      
       </div>
