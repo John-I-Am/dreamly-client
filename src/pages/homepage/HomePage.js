@@ -1,14 +1,15 @@
-import React from 'react';
-import Footer from '../components/Footer'
+import React from 'react'
+import Footer from '../../components/footer/Footer'
+import './style.css'
 
 import Lottie from 'react-lottie'
-import heroImage from '../assets/astronaut.json'
-import asset1 from '../assets/icon1.png'
-import asset2 from '../assets/icon2.png'
-import asset3 from '../assets/icon3.png'
-import asset4 from '../assets/icon4.png'
-import asset5 from '../assets/icon5.png'
-import asset6 from '../assets/icon6.png'
+import heroImage from '../../assets/astronaut.json'
+import asset1 from '../../assets/icon1.png'
+import asset2 from '../../assets/icon2.png'
+import asset3 from '../../assets/icon3.png'
+import asset4 from '../../assets/icon4.png'
+import asset5 from '../../assets/icon5.png'
+import asset6 from '../../assets/icon6.png'
 
 import { Link } from 'react-router-dom'
 

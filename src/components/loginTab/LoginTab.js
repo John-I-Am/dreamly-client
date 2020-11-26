@@ -1,9 +1,10 @@
 import React from 'react'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
+import './style.css'
 
-import LoginForm from '../components/LoginForm'
-import RegisterForm from '../components/RegisterForm'
+import LoginForm from '../loginForm/LoginForm'
+import RegisterForm from '../registerForm/RegisterForm'
 
 const LoginTab = () => {
   return (

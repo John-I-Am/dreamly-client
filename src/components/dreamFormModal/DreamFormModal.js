@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
 import Modal from 'react-modal'
 import Form from 'react-bootstrap/Form'
+import './style.css'
 import {useDispatch, useSelector} from 'react-redux'
-import { createDream } from '../reducers/dreamReducer'
-import { closeModal } from '../reducers/modalReducer'
+import { createDream } from '../../reducers/dreamReducer'
+import { closeModal } from '../../reducers/modalReducer'
 
 const DreamFormModal = () => {
   const [title, setTitle] = useState('')
@@ -39,7 +40,7 @@ const DreamFormModal = () => {
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="titleInput">
           <Form.Label>Title</Form.Label>
-          <Form.Control type="text" placeholder="Dream Title" value={title} onChange={({target}) => setTitle(target.value)}/>
+          <Form.Control type="text" placeholder="Dream Title" value={title} onChange={({target}) => setTitle(target.value)} maxLength='40'/>
         </Form.Group>
 
         <Form.Group controlId="tagInput">

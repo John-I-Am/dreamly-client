@@ -1,0 +1,102 @@
+.emptyList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .emptyList img {
+    max-width: 30%;
+  }
+  
+  .navBar {
+    position: fixed;
+    z-index: 2;
+    height: 100%;
+    width: 50px;
+    background-color: #00103a;
+  }
+  
+  .navBar .fas{
+    width: 15px;
+  }
+  
+  .navBar ul {
+    width: 50%;
+    margin: 50px auto;
+    list-style-type: none;
+  }
+  
+  .navBar ul li:last-child{
+    margin-top: 700px;
+  }
+  
+  .navBar .navLink{
+    overflow: hidden;
+    margin-left: 20px;
+    color: orangered;
+  }
+  
+  .navBar li{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navBar .fas{
+    color: white;
+  }
+  
+  .navBar:hover {
+    width: 180px;
+    transition: .5s ease;
+  }
+  
+  .dashContent {
+    padding-left: 60px;
+    padding-top: 1%;
+    padding-right: 1%;
+  }
+  
+  .dashHeader {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .dashHeader input {
+    margin: auto;
+    width: 60%;
+    border-radius: 50px;
+    border: 2px solid #57a8ff;
+  }
+  
+  .dashHeader button {
+    width: 10%;
+  }
+  
+  /* List */
+  
+  .dreamList li {
+    padding: 2%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    box-shadow: 0px 0px 10px 0px #D2DADD;
+  }
+  
+  .dreamList li p {
+    margin-top: 20px;
+  }
+  
+  .dreamList ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+    padding: 0%;
+  }
+  
+  .dreamControls {
+    display: flex;
+    justify-content: space-between;
+  }

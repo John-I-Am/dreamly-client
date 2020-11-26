@@ -1,0 +1,25 @@
+.dreamList li {
+    padding: 2%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    box-shadow: 0px 0px 10px 0px #D2DADD;
+  }
+  
+  .dreamList li p {
+    margin-top: 20px;
+  }
+  
+  .dreamList ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+    padding: 0%;
+  }
+  
+  .dreamControls {
+    display: flex;
+    justify-content: space-between;
+  }

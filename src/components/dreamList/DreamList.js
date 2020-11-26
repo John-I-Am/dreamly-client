@@ -1,9 +1,10 @@
 import React from 'react'
 import {useDispatch} from 'react-redux'
-import { deleteDream } from '../reducers/dreamReducer'
+import { deleteDream } from '../../reducers/dreamReducer'
 import { format } from 'date-fns'
+import style from './style.css'
 
-import empty from '../assets/empty.svg'
+import empty from '../../assets/empty.svg'
 
 const DreamList = ({dreamsToShow}) => {
   const dispatch = useDispatch()

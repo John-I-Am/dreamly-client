@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 import Form from 'react-bootstrap/Form'
 import {useDispatch} from 'react-redux'
-import {registerUser} from '../reducers/userReducer'
+import {registerUser} from '../../reducers/userReducer'
+import './style.css'
 
 const RegisterForm = () => {
   const dispatch = useDispatch()

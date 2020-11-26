@@ -1,8 +1,10 @@
-import React, {useEffect} from 'react';
+import React, {useEffect} from 'react'
 import {useDispatch, useSelector} from 'react-redux'
-import { setUserFromLocalStorage} from '../reducers/userReducer'
+import { setUserFromLocalStorage} from '../../reducers/userReducer'
 import {Route, Redirect} from 'react-router-dom'
-import LoginTab from '../components/LoginTab'
+import LoginTab from '../../components/loginTab/LoginTab'
+
+import './style.css'
 
 const LoginPage = () => {
 

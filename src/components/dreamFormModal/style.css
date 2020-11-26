@@ -1,0 +1,9 @@
+.modal {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10%;
+    height: 60vh;
+    width: 80%;
+  }

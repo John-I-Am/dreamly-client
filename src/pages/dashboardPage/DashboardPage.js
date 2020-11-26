@@ -1,12 +1,14 @@
-import React, {useEffect, useState} from 'react';
-import DreamList from '../components/DreamList'
-import DreamFormModal from '../components/DreamFormModal';
-import NavBar from '../components/NavBar'
-import Modal from 'react-modal';
-import {setUserFromLocalStorage} from '../reducers/userReducer'
+import React, {useEffect, useState} from 'react'
+import DreamList from '../../components/dreamList/DreamList'
+import DreamFormModal from '../../components/dreamFormModal/DreamFormModal'
+import NavBar from '../../components/navBar/NavBar'
+import Modal from 'react-modal'
+import {setUserFromLocalStorage} from '../../reducers/userReducer'
 import { useDispatch, useSelector } from 'react-redux'
-import { initializeDreams } from '../reducers/dreamReducer';
-import { openModal } from '../reducers/modalReducer';
+import { initializeDreams } from '../../reducers/dreamReducer'
+import { openModal } from '../../reducers/modalReducer'
+
+import './style.css'
 
 Modal.setAppElement('*')
 

@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css'
-import './index.css';
 import { Provider } from 'react-redux'
 import store from './store'
-import HomePage from './pages/HomePage'
-import LoginPage from './pages/LoginPage'
-import DashboardPage from './pages/DashboardPage'
-import TrendsPage from './pages/TrendsPage'
-import ProfilePage from './pages/ProfilePage'
+import HomePage from './pages/homepage/HomePage'
+import LoginPage from './pages/loginPage/LoginPage'
+import DashboardPage from './pages/dashboardPage/DashboardPage'
+import TrendsPage from './pages/trendsPage/TrendsPage'
+import ProfilePage from './pages/profilePage/ProfilePage'
 
 import { BrowserRouter, Switch, Route, Redirect} from 'react-router-dom'
 

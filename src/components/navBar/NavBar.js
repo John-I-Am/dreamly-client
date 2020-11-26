@@ -1,8 +1,9 @@
 import React from 'react'
-import { clearUser } from '../reducers/userReducer';
-import { clearDreamsOnLogout } from '../reducers/dreamReducer'
+import { clearUser } from '../../reducers/userReducer';
+import { clearDreamsOnLogout } from '../../reducers/dreamReducer'
 import { Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
+import './style.css'
 
 const NavBar = () => {
 

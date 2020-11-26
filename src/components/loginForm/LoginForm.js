@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 import Form from 'react-bootstrap/Form'
 import {useDispatch} from 'react-redux'
-import {setUser} from '../reducers/userReducer'
+import {setUser} from '../../reducers/userReducer'
+import './style.css'
 
 const LoginForm = () => {
 
